@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>burokonzept</name>
+	<version>1.0</version>
+	<creationDate>5/01/2019</creationDate>
+	<author>IGNIS IT Solutions Pvt. Ltd</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<copyright>Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.</copyright>
+	<description>TPL_BUROKONZEPT_XML_DESCRIPTION</description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>scss</folder>
+	</files>
+	<positions>
+		<position>main-menu-bar</position>
+		<position>hero-home</position>
+		<position>top</position>
+		<position>breadcrumb</position>
+		<position>printing-solutions-a</position>
+		<position>printing-solutions-b</position>
+		<position>printing-solutions-c</position>
+		<position>custom-b</position>
+		<position>custom-c</position>
+		<position>custom-d</position>
+		<position>custom-e</position>
+		<position>custom-f</position>
+		<position>custom-g</position>
+		<position>custom-h</position>
+		<position>custom-i</position>
+		<position>custom-j</position>
+		<position>custom-k</position>
+		<position>custom-l</position>
+		<position>custom-m</position>
+		<position>hero-a</position>
+		<position>hero-b</position>
+		<position>slider-1</position>
+		<position>slider-2</position>
+		<position>slider-3</position>
+		<position>slider-4</position>
+		<position>slider-5</position>
+		<position>slider-partner</position>
+		<position>footer-a</position>
+		<position>footer-b</position>
+		<position>footer-c</position>
+		<position>footer-d</position>
+		<position>footer</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_burokonzept.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_burokonzept.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+
+				<field 
+					name="logoFile" 
+					type="media" 
+					label="TPL_BUROKONZEPT_LOGO_LABEL"
+					description="TPL_BUROKONZEPT_LOGO_DESC" 
+					class="" 
+					default=""
+				/>
+
+				<field 
+					name="sitetitle"  
+					type="text" 
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					default="Burokonzept | Logo"
+					filter="string" 
+				/>
+
+				<field 
+					name="sitedescription"  
+					type="text" 
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					default=""
+					filter="string" 
+				/>
+
+				<field 
+					name="bootstrapFramework"
+					type="radio"
+					label="TPL_BUROKONZEPT_BOOTSTRAP_FRAMEWORK_LABEL"
+					description="TPL_BUROKONZEPT_BOOTSTRAP_FRAMEWORK_DESC"
+					class="btn-group btn-group-yesno"
+					default="0"
+					>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field 
+					name="jQueryFramework"
+					type="radio"
+					label="TPL_BUROKONZEPT_JQUERY_FRAMEWORK_LABEL"
+					description="TPL_BUROKONZEPT_JQUERY_FRAMEWORK_DESC"
+					class="btn-group btn-group-yesno"
+					default="1"
+					>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
